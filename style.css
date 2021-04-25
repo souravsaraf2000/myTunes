@@ -1,0 +1,354 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*NavBar Properties*/
+#navbar{
+    background-color: #333333;
+    height: 63px;
+    color: #fff;
+    position: sticky;
+    top:0;
+}
+#navbar p{
+    display: inline-block;
+}
+#navbar ul{
+    list-style-type: none;
+    display: inline-block;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+#btn{
+    float: right;
+    padding: 20px;
+}
+#btn i{
+    display: none;
+}
+#top-right a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    padding: 20px;
+}
+#top-right a:hover,#navbar li a:hover{
+    color: #333333;
+    background-color: #fff;
+}
+/*--------------------------------*/
+/*Landing-Section*/
+#landing-section{
+    background: url('images/showcase.jpeg') no-repeat center;
+    background-size: cover;
+    height: 690px;
+}
+#content{
+    color: #fff;
+    text-align: center;
+    width: 85%;
+    height: 50%;
+    margin: auto;
+    padding-top: 170px;
+}
+#content h1{
+    font-size: 62px;
+}
+#content h2{
+    font-size: 32px;
+    padding: 50px 0;
+}
+#content h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+/*-----------------------------------*/
+/*Music Section*/
+#music{
+    background-color: #252529;
+    color: white;
+}
+#music-section{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#music-section h1{
+    font-size: 52px;
+    padding: 30px 0;
+}
+#music-section h1:nth-child(2){
+    font-size: 40px;
+}
+#music-section p{
+    font-size: 20px;
+    padding: 20px 0;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+#music-section p:last-of-type{
+    padding-top: 40px;
+    font-size: 17px;
+}
+#music-section a{
+    padding: 15px 10px;
+    background-color: #b90415;
+    color: white;
+    text-decoration: none;
+}
+#music-section img{
+    width: 100%;
+    height: 750px;
+}
+/*----------------------------------*/
+/* Video Section*/
+#video{
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+}
+#video-section{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+#video-section h1{
+    font-size: 32px;
+    color: rgba(0,0,0,0.8);
+    font-weight: 550;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#video-section p{
+    font-size: 21px;
+    color: rgba(0,0,0,0.7);
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+#video-section a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    background-color: #136;
+}
+#video-section img{
+    width: 100%;
+    height: 800px;
+}
+/*----------------------------------*/
+/*Stars Section*/
+#stars{
+    background: url('images/section-bg.jpeg') no-repeat 100% 100%;
+    background-size: cover;
+    color: white;
+    height: 500px;
+}
+#stars div{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+#stars h1{
+    font-size: 44px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+#stars p{
+    font-size: 20px;
+    line-height: 1.7;
+}
+/*----------------------------------*/
+/* Gift Cards Section*/
+#gift-cards{
+    height: 450px;
+    background-color: #f4f4f4;
+}
+#container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+#image{
+    padding-top: 20px;
+    width: 50%;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+#info{
+    width: 50%;
+    padding-left: 30px;
+    color: rgba(0,0,0,0.7);
+}
+#container h2{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+#info p{
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(0,0,0,0.7);
+    padding-bottom: 10px;
+}
+#info a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+#link{
+    margin-top: 15px;
+}
+/*----------------------------------*/
+/* Menu Section*/
+#menu{
+    background-color: #252529;
+}
+#menu-container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#menu-container ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+#menu-container li a{
+    color: rgba(255,255,255,0.8);;
+    text-decoration: none;
+    font-size: 14px;
+}
+#menu-container h2{
+    color: white;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#menu-container div{
+    padding-right: 50px;
+    width: 25%;
+}
+/*----------------------------------*/
+/*Footer Section*/
+footer{
+    background-color: #333;
+}
+footer p{
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+}
+/*----------------------------------*/
+/* Media Queries */
+@media screen and (max-width: 900px){
+    #music-section img {
+        height: 500px;
+    }
+    #video-section img {
+        height: 600px;
+    }
+    #stars div {
+        padding-top: 120px;
+        width: 90%;
+    }
+    #stars h1{
+        font-size: 30px;
+    }
+    #gift-cards{
+        height: 350px;
+    }
+    #container{
+        width: 90%;
+    }
+    #menu-container{
+        width: 80%;
+    }
+    footer p{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 700px){
+    #music-section img {
+        height: 400px;
+    }
+    #video-section img {
+        height: 500px;
+    }
+    #gift-cards{
+        height: 420px;
+    }
+    footer p{
+        width: 50%;
+    }
+    #menu-container{
+        width: 90%;
+    }
+    #menu-container div:last-of-type{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 400px){
+    #top-right{
+        position: relative;
+        top: 5px;
+    }
+    #navbar ul{
+        display: none;
+    }
+    #btn i{
+        display: inline-block;
+    }
+    #landing-section{
+        height: 500px;
+    }
+    #landing-section h3{
+        display: none;
+    }
+    #music-section h1:nth-child(2){
+        font-size: 32px;
+    }
+    #music-section img{
+        height: 220px;
+    }
+    #video-section img {
+        height: 300px;
+    }
+    #stars{
+        height: 800px;
+    }
+    #stars div{
+        padding-top: 200px;
+    }
+    #gift-cards{
+        height: 650px;
+    }
+    #container{
+        display: block;
+    }
+    #image,#info{
+        width: 100%;
+    }
+    #info{
+        padding-left: 0;
+    }
+    #menu{
+        display: none;
+    }
+    footer p{
+        width: 70%;
+    }
+}
